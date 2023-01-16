@@ -30,5 +30,6 @@ git remote remove origin
 ```
 git add filesname or git add .
 git commit -m "commit"
+git pull --rebase origin main
 git push origin main
 ```
