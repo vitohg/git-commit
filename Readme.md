@@ -56,5 +56,5 @@ git pull
 <br>
 
 <div align="center">
-END
+END...
 </div>
