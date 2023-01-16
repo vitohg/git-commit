@@ -1,4 +1,4 @@
-# How to commit with github
+# How to commit with git
 
 ### Change branch
 ```
@@ -33,3 +33,28 @@ git commit -m "commit"
 git pull --rebase origin main
 git push origin main
 ```
+
+<br>
+
+# Change username and email in git 
+```
+git config --list
+git config --global user.name "yourname"
+git config --global user.email "youremail"
+```
+
+<br>
+
+# Copy someone else's repository
+```
+git clone <link>
+git pull
+``` 
+
+#
+
+<br>
+
+<div align="center">
+END
+</div>
