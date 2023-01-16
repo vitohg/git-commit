@@ -1,25 +1,34 @@
-# Comandos para commitar no git bash
+# How to commit with github
 
-## Commit
+### Change branch
+```
+git branch -M "main"
+```
 
-Inicialização
-- git init
+#
 
-Adicionar um arquivo para ser direcionado
-- git add nomedoarquivo
+### First commit
+```
+git init
+git add filesname or git add .
+git status
+git commit -m "first commit"
+git remote add origin <link>
+git push -u origin main
+```
 
-### Ou adicionar todos os arquivos que estiver naquele commit aguardando para dar o push
-- git add -all ou git add . 
+#
 
-### Aparece o status de arquivos a serem utilizado pelo commit
-- git status
+### Remote remove
+```
+git remote remove origin
+```
 
-Adiciona um comentario para o seu commit
-- git commit -m "commit"
+#
 
-Ele diz o local para onde o diretório do seu arquivo
-- git remote add nomedoprojeto(origin) <link>
-
-### Remover do local para onde o diretório do seu arquivo 
-- git remote remove nomedoprojeto(origin)
-
+### Change commit
+```
+git add filesname or git add .
+git commit -m "commit"
+git push origin main
+```
